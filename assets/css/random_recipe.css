@@ -1,0 +1,33 @@
+ .outer {
+  display: flex;
+  background-color: bisque;
+  text-align: center;
+  align-items: center;
+} 
+
+h5 {
+  /* font-variant: small-caps;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold; */
+  padding: 10px;
+  background-color: black;
+  color: white;
+  width:60%;
+  text-align:center;
+  margin: auto;
+  margin-bottom: 5px;
+
+}
+
+img {
+  width: 350px;
+  height: 300px;
+}
+
+#display {
+  margin: auto;
+  float: right;
+  padding: 50px;
+  /* font-family: sans-serif;
+  font-size: 20px; */
+}
