@@ -112,7 +112,7 @@
     var editor = elt.getElementsByClassName("edit")[0];
     editor.classList.remove("show");
 
-    localStorage["_MarkoN95_RecipeBook"] = updateLocalStorage();
+    localStorage["_Recipes_Galore_RecipeBook"] = updateLocalStorage();
   }
 
   //delete a recipe from the list
@@ -121,7 +121,7 @@
     var elt = event.target.parentNode.parentNode.parentNode;
     elt.parentNode.removeChild(elt);
 
-    localStorage["_MarkoN95_RecipeBook"] = updateLocalStorage();
+    localStorage["_Recipes_Galore_RecipeBook"] = updateLocalStorage();
   }
 
   //create a new empty/from localStorage recipe and add it to the list 
@@ -207,7 +207,7 @@
     var target = event.target != null ? event.target : event;
     parent.insertBefore(newRecipe, target);
 
-    localStorage["_MarkoN95_RecipeBook"] = updateLocalStorage();
+    localStorage["_Recipes_Galore_RecipeBook"] = updateLocalStorage();
   }
 
   //toggle the recipe panel with the ingredients
@@ -227,13 +227,13 @@
     document.getElementById("add-rec").onclick = createRecipe;
     var insertHere = document.getElementById("add-rec");
 
-    if(localStorage.getItem("_MarkoN95_RecipeBook") === null) {
+    if(localStorage.getItem("_Recipes_Galore_RecipeBook") === null) {
       for(let i = 0; i < RecipeBook.length; i++) {
         createRecipe(insertHere, RecipeBook[i]);
       }
     }
     else {
-      var LocalRecipeBook = JSON.parse(localStorage["_MarkoN95_RecipeBook"]);
+      var LocalRecipeBook = JSON.parse(localStorage["_Recipes_Galore_RecipeBook"]);
       for(let i = 0; i < LocalRecipeBook.length; i++) {
         createRecipe(insertHere, LocalRecipeBook[i]);
       } 
