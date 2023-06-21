@@ -1,4 +1,4 @@
-h1,h2,h3,h4,p,div { font-family: 'Droid Sans', arial, serif; 
+h1,h2,h3,h4,h5,p,div { font-family: 'Droid Sans', arial, serif; 
 color:#000000}
 table {
   text-align: left;
@@ -12,8 +12,8 @@ td, th {
   padding: 20px;
 }
 th {
-  background: brown;
-  color: white;
+  background: #b5cd60;
+  color: black;
   border-radius: 0;
   position: sticky;
   top: 0;
