@@ -9,6 +9,7 @@
 ![signin](./assets/images/signin.JPG)
 ![index](./assets/images/screen-shot-recipe-galore.JPG)
 ![recipe](./assets/images/screen-shot-crud-recipe.JPG)
+![resources](./assets/images/resources.JPG)
 
 
 ## Table of Contents
