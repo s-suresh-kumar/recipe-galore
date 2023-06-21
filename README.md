@@ -2,17 +2,14 @@
 
 # recipe-galore
 
-[![Thumbnail](assets/images/readMeGenerator-thumb.JPG)](https://github.com/s-suresh-kumar/readmeGenerator)
+[![Thumbnail](assets/images/screen-shot-recipe-galore.JPG)](https://s-suresh-kumar.github.io/recipe-galore/)
 
-[ReadmeGenerator walkthru video](https://drive.google.com/file/d/1mKtnC8vVHAh-ZIaSLxFY4drZU2qetV-o/view)
+#### Sample screen shots
+![register](./assets/images/register.JPG)
+![signin](./assets/images/signin.JPG)
+![index](./assets/images/screen-shot-recipe-galore.JPG)
+![recipe](./assets/images/screen-shot-crud-recipe.JPG)
 
-#### App In Action
-![App in action](assets/images/suresh-readme-generator-app-FGAY.gif)
-
-#### Sample Output
-[Sample Output of this app](https://drive.google.com/file/d/1dA-DnY7g7QjfD985UKDvM141hVTylYkB/view)
-
-Note: I have used this app itself for sample output purposes.
 
 ## Table of Contents
 
@@ -30,22 +27,19 @@ Note: I have used this app itself for sample output purposes.
 
 - [Questions](#Questions)
 
+- [Improvements](#Improvements)
+
 ## Description
 
-This app helps the user to auto generate a professional looking README.md. It interactively asks the user pertinent questions about the app, such as title, description, installation instructions, usage instructions, license information, how to contribute and collaborate to make the app a better product and collects user e-mail and github username so that any questions can be sent to the author ( user).
+This website is an entry level  recipe website. It generates a random recipe using MealDB API any time index.html is loaded. It has login and register functionality. Once on sign in, one can store simple text based recipes / notes for future  reference. It has user authentication done using local storage. Also the simple recipe is stored as an array in local storage.
 
 ## Installation
 
-You need inquirer package installed for this app to run. So the steps are :
-
-1. Clone this [repository](https://github.com/s-suresh-kumar/readmeGenerator)
-2. Issue `npm i` at your local repository root, so that all dependencies (inquirer package) is installed.
-3. Then launch node index.js and answer all questions properly.
-4. Your README.md will get auto-generated.
+N/A
 
 ## Instructions
 
-Since this is a command line app, just run 'node index.js'. The app will ask series of questions, once you answer all of them the app will automatically generate a professional looking README.md. The README.md can only be as good as the answers. So spend time to provide proper and well thought out answers to the interactive questions of the app
+Simple to navigate.  SignIn/Register to access recipes section to add/edit/delete simple recipes.
 
 ## License
 
@@ -63,3 +57,7 @@ There are no automated tests written for this app. However it is easy to launch 
 
 https://github.com/s-suresh-kumar
 suresh01@yahoo.com
+
+## Improvements
+
+Recipes nav link is currently visible while trying to sign-in / register. In the future version, recipes menu link will only be available upon successful sign in. Also the recipe page is not auto loading on sign-in / register, which will be fixed in next iteration.
